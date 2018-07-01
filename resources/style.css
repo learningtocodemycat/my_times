@@ -1,0 +1,51 @@
+header{
+  display: flex;
+  font-family: Verdana;
+ font-size: 14px;
+ font-weight: bold;
+ border: 1px solid black;
+ margin-top: -7px;
+ margin-left: -7px;
+ margin-right: -7px;
+ background-color: white;
+
+}
+
+.logo{
+  color:MediumAquamarine;
+  margin-left: 10px;
+  align-self: center;
+
+}
+
+.nav{
+  margin-left: 900px;
+  align-self: center;
+}
+
+ .world{
+  padding-right: 20px;
+}
+
+.US{
+padding-right: 20px;
+}
+
+.Tech{
+  padding-right: 20px;
+}
+
+.science{
+  padding-right: 20px;
+}
+
+
+a{
+  color: black;
+}
+header img{
+  margin-left: 20px;
+  margin-top: 9px;
+  margin-bottom: 9px;
+
+}
