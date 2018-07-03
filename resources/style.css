@@ -5,66 +5,114 @@ header{
  font-weight: bold;
  border: 1px solid black;
  background-color: white;
- margin-top: -7px;
- margin-left: -7px;
- margin-right: -22px;
-
+ margin-top: -4px;
+ margin-left: -6px;
+ margin-right: -15px;
+top: 0;
+position: fixed;
 
 }
 
 div.backback{
   display: flex;
   flex-direction: row;
-  height: 600px;
-  width: 1350px;
+  height: 1400px;
+  width: 1300px;
   border: 3px solid blue;
   background-color: white;
-  margin-top: 30px;
+  margin-top: 100px;
+
+
 
 }
 
  #column-large{
   width: 630px;
-  height: 595px;
-  border: 3px solid red;
-
+  height: 1150px;
 
 }
 
+div .orgainzer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-left: 15px;
+  margin-bottom: -30px;
+}
+
+div .pictureorgainzer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: -50px;
+
+}
+
+
 div .image-writing{
   width: 627px;
-  height: 20px;
-  border: 3px solid red;
+  height: 300px;
+  background-image: url(../resources/images/img-story-main.png);
+  font-family: Georgia;
+ font-weight: bold;
+ font-size: 40px;
+ color: white;
 }
 
 div .story-content1{
   width: 627px;
-  border: 3px solid red;
   padding-top: 12px;
   padding-bottom: 8px;
+  font-family: Georgia;
+ font-size: 16px;
+ color: black;
 }
 
 div .orca{
-  width: 627px;
-  border: 3px solid red;
+  width: 300px;
+ height: 250px;
+  font-family: Georgia;
+ font-size: 16px;
+ color: black;
+margin-bottom: 25px;
+margin-left: -10px;
+
+
 }
 
 div .image-writing2{
-  width: 627px;
-  height: 20px;
-  border: 3px solid red;
+  width: 278px;
+  height: 300px;
+  background-image: url(../resources/images/img-story-2.png);
+  font-family: Georgia;
+ font-weight: bold;
+ font-size: 30px;
+ color: white;
+ margin-right: 19px;
+ margin-left: -5px;
+ text-align: center;
 }
 
 div .burger{
-  width: 627px;
-  border: 3px solid red ;
+  width: 300px;
+  height: 200px;
+  font-family: Georgia;
+ font-size: 15px;
+ color: black;
+ margin-left: 8px;
+
   }
 
   div .image-writing3{
-    width: 627px;
-    height: 20px;
-    border: 3px solid red;
-
+    width: 300px;
+    height: 300px;
+  background-image: url(../resources/images/img-story-3.png);
+  font-family: Georgia;
+ font-weight: bold;
+ font-size: 30px;
+ color: white;
+text-align: center;
 
   }
 
@@ -78,17 +126,28 @@ div .burger{
 div .fbi{
   width: 300px;
   border: 1px solid green;
+  font-family: Georgia;
+ font-size: 17px;
+ color: black;
 }
 
 div .image-writing4{
 width: 300px;
+height: 300px;
 border: 1px solid green;
-
+background-image: url(../resources/images/img-story-1.png);
+font-family: Georgia;
+ font-weight: bold;
+ font-size: 30px;
+ color: white;
 }
 
 div .brooklyn{
   width: 300px;
   border: 1px solid green;
+  font-family: Georgia;
+ font-size: 17px;
+ color: black;
 }
 
 
@@ -111,7 +170,10 @@ div .cookie{
 div .news{
   border: 3px solid purple;
   width: 237px;
-  
+  font-family: Georgia;
+ font-size: 17px;
+ color: black;
+
 }
 
 .logo{
