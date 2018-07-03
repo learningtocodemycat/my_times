@@ -4,20 +4,115 @@ header{
  font-size: 14px;
  font-weight: bold;
  border: 1px solid black;
+ background-color: white;
  margin-top: -7px;
  margin-left: -7px;
- margin-right: -7px;
- background-color: white;
+ margin-right: -22px;
+
 
 }
 
 div.backback{
-  height: 500px;
-  width: 400px;
+  display: flex;
+  flex-direction: row;
+  height: 600px;
+  width: 1350px;
   border: 3px solid blue;
+  background-color: white;
+  margin-top: 30px;
 
 }
 
+ #column-large{
+  width: 630px;
+  height: 595px;
+  border: 3px solid red;
+
+
+}
+
+div .image-writing{
+  width: 627px;
+  height: 20px;
+  border: 3px solid red;
+}
+
+div .story-content1{
+  width: 627px;
+  border: 3px solid red;
+  padding-top: 12px;
+  padding-bottom: 8px;
+}
+
+div .orca{
+  width: 627px;
+  border: 3px solid red;
+}
+
+div .image-writing2{
+  width: 627px;
+  height: 20px;
+  border: 3px solid red;
+}
+
+div .burger{
+  width: 627px;
+  border: 3px solid red ;
+  }
+
+  div .image-writing3{
+    width: 627px;
+    height: 20px;
+    border: 3px solid red;
+
+
+  }
+
+#column-medium{
+  height:595px;
+  width: 300px;
+  border: 3px solid green;
+  margin-left: 30px;
+}
+
+div .fbi{
+  width: 300px;
+  border: 1px solid green;
+}
+
+div .image-writing4{
+width: 300px;
+border: 1px solid green;
+
+}
+
+div .brooklyn{
+  width: 300px;
+  border: 1px solid green;
+}
+
+
+
+
+#column-small{
+  width: 240px;
+  height: 595px;
+  border: 3px solid purple;
+  margin-left: 30px;
+}
+
+div .cookie{
+  background-image: url(../resources/images/img-news-bite.png);
+  border: 3px solid purple;
+  width: 237px;
+  height: 239px;
+}
+
+div .news{
+  border: 3px solid purple;
+  width: 237px;
+  
+}
 
 .logo{
   color:MediumAquamarine;
