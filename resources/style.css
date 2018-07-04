@@ -16,14 +16,36 @@ position: fixed;
 div.backback{
   display: flex;
   flex-direction: row;
-  height: 1400px;
+  height: 1130px;
   width: 1300px;
-  border: 3px solid blue;
   background-color: white;
   margin-top: 100px;
+  margin-bottom: -90px;
 
 
 
+}
+
+#footy{
+  display: flex;
+  margin-top: 100px;
+  background-color: MediumAquamarine;
+  width: 1330px;
+  height: 460px;
+  font-family:Verdana;
+  font-size:12px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
+
+div .sentence1{
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
 }
 
  #column-large{
@@ -201,6 +223,8 @@ div .newsbites{
   border-bottom: 2px solid;
   }
 
+
+
 .logo{
   color:MediumAquamarine;
   margin-left: 10px;
@@ -238,4 +262,7 @@ header img{
   margin-top: 9px;
   margin-bottom: 9px;
 
+}
+#footy p{
+  color: black;
 }
